@@ -1,12 +1,11 @@
 {
-  "name": "azure-basic-app",
+  "name": "azure-basic-webapp",
   "version": "1.0.0",
-  "description": "Simple Node.js app for Azure deployment",
-  "main": "server.js",
+  "description": "A basic Node.js app for Azure deployment",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.18.4"
-  }
+  "author": "",
+  "license": "ISC"
 }
