@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Hello from Azure Node.js Web App!</h1>');
+  res.end("<h1>Welcome to Group 10's web-based application</h1>");
 });
 
 server.listen(port, hostname, () => {
